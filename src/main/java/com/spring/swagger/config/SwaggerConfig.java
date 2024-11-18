@@ -28,7 +28,7 @@ public class SwaggerConfig {
     }
 
     private ApiInfo metaData(){
-        Contact contact = new Contact("Mostafa Khater","","mostafaaliramadan08@gmail.com");
+        Contact contact = new Contact("Mostafa Khater","https://www.linkedin.com/in/mostafa-ali-khater?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app","mostafaaliramadan08@gmail.com");
         return new ApiInfo (
                 "Spring Boot with Swagger",
                 "Employee & Player Controller",
